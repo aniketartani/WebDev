@@ -1,0 +1,58 @@
+<!-- simple margin makes equivalent margin from all the sides -->
+<!-- 
+    positioning =()=>
+    fixed=for chatbot,navbar etc when we need to fix anything and all other element can come over it
+    relative=element becomes relative to it's self and left,right,bottom starts working
+    absolute=makes block elevel element also inline
+    static=nothing happens.
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Positioning</title>
+    <style>
+        *{
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+            color:white;
+        }
+        div{
+            background-color: orange;
+            
+        }
+        
+        /* if position is static we can't do any left right up down */
+       /* relative is relative to its boundairs */
+       /* position abosolute makes a element inline element */
+        .second{
+            background-color: purple;
+            position: relative;
+            left: 50px;
+            top: 50px;
+        }
+        h1{
+            background-color: green;
+            position: absolute;
+          
+        }
+        img{
+            position: fixed;
+            width: 20px;
+            height: 20px;
+            bottom: 20px;
+            right: 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+<div class="first"><h1>heading of div1</h1></div> 
+<div class="second"><h1>Heading of div 2</h1></div>   
+<img src="https://www.svgrepo.com/show/330133/chatbot.svg" alt="">
+<div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et voluptas doloribus ab illo maxime, soluta neque. Inventore, praesentium eum? Accusamus eius quasi, neque optio deserunt minus. At dolore nulla aliquid corporis quisquam voluptatem praesentium adipisci, blanditiis minima, expedita quis deserunt. Aspernatur veniam laborum neque earum consectetur iusto ipsa soluta maxime recusandae facere dignissimos et in mollitia deleniti dicta eius dolore, possimus fugiat alias officia doloribus repudiandae natus. Cupiditate aliquam est eligendi a earum quae recusandae labore perspiciatis dolore dignissimos, sunt cumque, omnis ipsum vitae. Quae, enim ipsam? Vitae, laborum tempora aut ipsum reprehenderit magni nobis nulla obcaecati deserunt asperiores at fugit, ab sunt tenetur sint animi veniam error porro consequatur! Debitis labore sequi, laboriosam enim recusandae doloribus ducimus iste itaque distinctio quis porro quo soluta aperiam unde provident, ipsa fugiat rerum officiis, placeat illum. Eius alias quo vel deleniti sequi. Perferendis excepturi dolorem iusto commodi aliquid minima, eveniet ducimus debitis, omnis cupiditate sunt voluptatum porro ullam nihil pariatur, similique quisquam laborum maiores quidem aperiam non nam quaerat quibusdam iste. Magnam neque velit voluptates in, quas rerum itaque natus, dolor doloremque sapiente ipsum fuga mollitia. Dicta, minus illo architecto modi veniam totam nihil ducimus ratione accusantium explicabo incidunt laborum voluptatem sit nisi at quibusdam quasi aliquid saepe odio error aut molestias cum id. Adipisci qui dignissimos illum commodi eligendi? Facere voluptates animi ipsum nesciunt culpa adipisci error? Rerum saepe, fugiat maiores dolores qui quis assumenda nobis ullam ratione cupiditate magni ducimus neque autem tenetur distinctio labore veritatis, amet, molestias voluptatem. Consequuntur recusandae similique, placeat neque iste laudantium perferendis dolor fugiat, illo dolorum saepe commodi consequatur? Facilis, nesciunt. Deleniti, cupiditate, soluta deserunt architecto praesentium natus nam temporibus tempora odio consectetur quas ut excepturi voluptatum blanditiis amet assumenda voluptates asperiores voluptate similique porro ea eligendi! Deleniti, repellat commodi officiis incidunt porro possimus eum mollitia in, distinctio nihil quisquam beatae. Assumenda id exercitationem totam veniam sequi nesciunt inventore corporis delectus iusto quae asperiores beatae repudiandae praesentium, ea eos est! Sed dolorem distinctio impedit nisi. Impedit, quae? Aut voluptas, dolore rem exercitationem odio explicabo quos molestias modi, quam fuga, similique eum recusandae rerum aspernatur eos illum consectetur tenetur corporis vel. Similique est quaerat sapiente suscipit necessitatibus asperiores eos, quae dolor nemo. Molestiae sequi illo dolores distinctio earum. Blanditiis veniam inventore sint voluptatum atque quam iure eos, rerum cumque corrupti beatae odio nulla dolorem dolore vero deleniti maiores ad eveniet facilis nihil minima placeat aliquid neque. Ab itaque voluptas perspiciatis deleniti adipisci ratione nam doloribus, voluptatibus possimus rerum earum aliquam tempore aut? Molestias nobis quisquam, fuga cupiditate possimus porro vel, sint totam provident corporis tempora hic, suscipit nemo quia quidem minus architecto quod odit? Laboriosam consectetur exercitationem asperiores doloremque obcaecati, quam accusamus eveniet modi esse voluptas blanditiis hic illum non ad! Perspiciatis ipsam quaerat nulla molestiae, delectus quibusdam. Enim dolore nisi magni, omnis, dolorem nihil excepturi in accusamus voluptate amet sed libero officia neque soluta illum maiores iure vero! Hic corrupti, ex cupiditate doloribus sed totam provident deleniti commodi eaque explicabo, cumque doloremque libero vitae ipsum!</div>
+</body>
+</html>

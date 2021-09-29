@@ -1,0 +1,57 @@
+<!-- Div is block level while span is inline element so width and ht will not work on span as it is inline element -->
+<!-- vh and vw=view widhth and ht acc to viewport -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* '*' is a universal css selector' */
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        div{
+            background-color: blue;
+            height: 300px;
+            width: 400px;
+        }
+        span{
+            background-color: green;
+        }
+        .background{
+            background-color: aqua;
+            padding-right: 50px; 
+            padding-left: 50px;
+            margin-top: 10px;
+            height: 50vh;
+            width: 50vw;
+        }
+        /* padding right increases right side spaces */
+        /* padding left increases space from left side */
+        .parent{
+            background-color: black;
+            height: 60px;
+            padding: 20px;
+            width: 50vw;
+        }
+        .child{
+            background-color: yellow;
+            height: 80%;
+            width: 80%;
+        }
+        /* in child ht and widhth will be 80% of its parent */
+ </style>
+</head>
+<body>
+    <div class="background">I m a div</div>
+    <span>I m a span</span>
+    <div class="parent">
+        <div class="child"></div>
+    </div>
+    
+</body>
+</html>
